@@ -1,11 +1,11 @@
-name: Experiment
+name: Find Hotels
 on: 
   schedule:
   - cron: '*/5 * * * *'
 
 jobs:
   job1:
-    name: Debug
+    name: Find Hotels
     runs-on: ubuntu-latest
 
     steps:
@@ -16,5 +16,5 @@ jobs:
       name: Set up Node.js
       with:
         node-version: 16
-    - name: Send greeting
+    - name: Find Hotels
       run: npm install && npm test
