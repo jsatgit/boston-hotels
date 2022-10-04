@@ -1,0 +1,15 @@
+{
+  "name": "boston-hotels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "list-hotels.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cypress": "^10.9.0"
+  }
+}
