@@ -1,12 +1,12 @@
 {
   "name": "boston-hotels",
   "version": "1.0.0",
-  "description": "",
+  "description": "lists available Boston marathon hotels on marathon tours",
   "main": "list-hotels.js",
   "scripts": {
     "test": "cypress run"
   },
-  "author": "",
+  "author": "James Shi",
   "license": "ISC",
   "type": "module",
   "dependencies": {
