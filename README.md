@@ -12,7 +12,9 @@ the process using browser automation. In this case I chose [Cypress](https://www
 already familiar with the tool.
 
 The browser automation will launch a headless browser and navigate to the website, fill in the contents 
-and then list the available hotels. The automation is run on a schedule by using [Github Actions](https://github.com/features/actions)
+and then list the available hotels. The automation is run on a schedule by using [Github Actions](https://github.com/features/actions).
+It runs every hour and looks for hotels during a fixed time range. Currently, the only way to change the time range is updating the code.
+When the automation succeeds, then click into the logs to see a list of hotels.
 
 ## Running locally
 
